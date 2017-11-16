@@ -5,6 +5,7 @@ def prime?(n)
       return false
     else
       num+= 1
+    end  
   end
   return true      
 end
