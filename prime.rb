@@ -4,8 +4,8 @@ def prime?(n)
     return false
   end
   if n > 2
-    return true
-  end  
+    return false
+  end
   until num == n
     if n % num == 0
       return false
