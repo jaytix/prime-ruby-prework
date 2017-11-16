@@ -1,7 +1,7 @@
 def prime?(n)
   num = 2
   if n < 0
-    return "Be sure to account for negative numbers!"
+    return false
   end
   until num == n
     if n % num == 0
