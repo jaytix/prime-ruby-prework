@@ -1,8 +1,5 @@
 def prime?(n)
   num = 2
-  if n < 0
-    return false
-  end
   if n < 2
     return false
   end
