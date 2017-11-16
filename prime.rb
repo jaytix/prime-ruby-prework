@@ -5,6 +5,7 @@ def prime?(n)
   end
   if n > 2
     return false
+  end  
   until num == n
     if n % num == 0
       return false
